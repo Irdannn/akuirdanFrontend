@@ -1,0 +1,19 @@
+.container {
+    background-color: black;
+    animation: colorAnimation 5s infinite;
+}
+
+
+@keyframes colorAnimation {
+    0% {
+      background-color: black;
+    }
+    
+    50% {
+      background-color: #19202a; /* Change to your desired color */
+    }
+    
+    100% {
+      background-color: black;
+    }
+}

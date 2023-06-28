@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    background-color: transparent;
+    color: black;
+    padding: 10px;
+    width: 100vw;
+}
+
+.menu {
+    display: inline-flex;
+    background-color: rgb(101, 160, 140);
+    width: 480px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.menuItem {
+    background-color: rgb(134, 155, 148);
+    margin: auto;
+    padding: 10px;
+    border-radius: 30px;
+    width: 120px;
+    font-size: 15px;
+    font-family: poppins;
+}
