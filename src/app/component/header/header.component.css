@@ -10,18 +10,18 @@
 
 .menu {
     display: inline-flex;
-    background-color: rgb(101, 160, 140);
+    background-color: transparent;
     width: 480px;
     margin: auto;
-    padding: 10px;
+    padding: 5px;
     border-radius: 30px;
     text-align: center;
 }
 
 .menuItem {
-    background-color: rgb(134, 155, 148);
+    background-color: transparent;
     margin: auto;
-    padding: 10px;
+    padding: 5px;
     border-radius: 30px;
     width: 120px;
     font-size: 15px;

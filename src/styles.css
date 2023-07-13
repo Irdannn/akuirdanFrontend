@@ -1,18 +1,23 @@
 body { 
     margin: 0; 
     font-family: poppins;
-    color: rgb(253, 253, 253);
+    color: #2F2F2F;
     background-color: transparent;
 }
 
-h1 {
+h1, h3 {
     font-weight: 600;
-    color: rgb(253, 253, 253);
+    color: #2F2F2F;
     font-size: 2rem;
 }
 
+p, h1, h3 {
+    color: #2F2F2F;
+    font-family: poppins;
+}
+
 p {
-    color: rgb(255, 255, 255);
+    color: #2F2F2F;
 }
 
 * {

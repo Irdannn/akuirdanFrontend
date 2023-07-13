@@ -1,19 +1,28 @@
-.container {
-    background-color: black;
-    animation: colorAnimation 5s infinite;
+/* .container {
+  background-color: linear-gradient( to bottom, #a0ce65 90%, #f2f8a13f 10%);
 }
 
 
 @keyframes colorAnimation {
     0% {
-      background-color: black;
+      background-color: #a0ce65;
+    }
+
+    30% {
+      background-color: #f2f8a1;
     }
     
-    50% {
-      background-color: #19202a; /* Change to your desired color */
+    60% {
+      background-color: #f2f8a1;
     }
     
     100% {
-      background-color: black;
+      background-color: #a0ce65;
     }
+} */
+
+.background-image {
+  background-image: url('src\assets\img\background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
