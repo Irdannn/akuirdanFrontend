@@ -26,4 +26,26 @@ button {
   button:focus {
     box-shadow: 0 2px 1px 1px #FCFCFC, 0 6px 8px #d6d7d962, 0 -4px 4px #CECFD1, 0 -6px 4px #fefefe73, inset 0 0 5px 3px #999, inset 0 0 30px #aaa;
   }
+
+  /* Menu */
+
+  .menu {
+    display: inline-flex;
+    background-color: #D9D9D9;
+    width: 25vw;
+    margin: auto;
+    padding: 5px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.menuItem {
+    background-color: transparent;
+    margin: auto;
+    padding: 5px;
+    border-radius: 30px;
+    width: 120px;
+    font-size: 1em;
+    font-weight: 500;
+}
   

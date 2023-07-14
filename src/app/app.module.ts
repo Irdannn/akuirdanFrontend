@@ -6,12 +6,18 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './component/home/home.component';
 import { HeaderComponent } from './component/header/header.component';
+import { ProjeckInvComponent } from './component/projeck-inv/projeck-inv.component';
+import { ProjeckWebComponent } from './component/projeck-web/projeck-web.component';
+import { ProjeckEffsComponent } from './component/projeck-effs/projeck-effs.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    HeaderComponent
+    HeaderComponent,
+    ProjeckInvComponent,
+    ProjeckWebComponent,
+    ProjeckEffsComponent,
   ],
   imports: [
     BrowserModule,
