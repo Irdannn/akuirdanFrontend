@@ -18,7 +18,14 @@ p, h1, h3 {
     box-sizing: border-box;
     font-size: 17px;
     font-family: poppins;
+    color: #2F2F2F;
 }
 
 @import url('assets/component.css');
 @import url('assets/background.css');
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

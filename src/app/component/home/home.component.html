@@ -8,18 +8,45 @@
             <h3 class="role">Programmer</h3>
             <p class="detail">Aku adalah pesulap yang siap buatkan Website dan Aplikasi buat Bisnis MU!</p>
         </div>
-        <div class="projek">
+       <div class="projek">
             <h3 class="subhead">Project Sebelumnya</h3>
-            <div class="menu">
-                <p class="menuItem">Inventory</p>
-                <p class="menuItem">Rapot</p>
-                <p class="menuItem">Effs</p>
-                <p class="menuItem">Website</p>
-            </div>
-            <div class="containerProjek">
-                <app-projeck-effs></app-projeck-effs>
-            </div>
+            <mat-tab-group mat-stretch-tabs="false" mat-align-tabs="start" class="menu">
+                <mat-tab class="menuItem" label="Inventory">
+                    <div class="containerProjek">
+                        <app-projeck-inv></app-projeck-inv>
+                    </div>
+                </mat-tab>
+                <mat-tab class="menuItem" label="Effs">
+                    <div class="containerProjek">
+                        <app-projeck-effs></app-projeck-effs>
+                    </div>
+                </mat-tab>
+                <mat-tab class="menuItem" label="Website">
+                    <div class="containerProjek">
+                        <app-projeck-web></app-projeck-web>
+                    </div>
+                </mat-tab>
+            </mat-tab-group>
         </div>
-        <div class="order"></div>
+        <div class="projek">
+            <h3 class="subhead">Order Service</h3>
+            <mat-tab-group mat-stretch-tabs="false" mat-align-tabs="start" class="menu">
+                <mat-tab class="menuItem" label="Website">
+                    <div class="containerProjek">
+                        <app-order-web></app-order-web>
+                    </div>
+                </mat-tab>
+                <mat-tab class="menuItem" label="Wordpress">
+                    <div class="containerProjek">
+                        <app-order-wordpress></app-order-wordpress>
+                    </div>
+                </mat-tab>
+                <mat-tab class="menuItem" label="Aplikasi">
+                    <div class="containerProjek">
+                        <app-order-apps></app-order-apps>
+                    </div>
+                </mat-tab>
+            </mat-tab-group>
+        </div>
     </div>
 </div>
