@@ -8,10 +8,12 @@ body {
 h1, h3 {
     font-weight:700;
     font-size: 3rem;
+    color: #2F2F2F;
 }
 
 p, h1, h3 {
     font-family: poppins;
+    color: #2F2F2F;
 }
 
 * {
@@ -21,11 +23,17 @@ p, h1, h3 {
     color: #2F2F2F;
 }
 
+.mat-mdc-tab .mdc-tab__text-label {
+    color: #2F2F2F !important;
+}
+
+.mat-mdc-tab.mdc-tab--active .mdc-tab__text-label {
+    color: #7b1fa2 !important;
+}
+
 @import url('assets/component.css');
 @import url('assets/background.css');
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

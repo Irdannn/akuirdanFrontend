@@ -5,16 +5,16 @@ button {
   justify-content: center;
   outline: none;
   cursor: pointer;
-  width: 10vw;
-  height: 6vh;
-  background-image: linear-gradient(to top, #f3e308 50%, #c2c9c28c 100%);
+  width: 12vw;
+  height: 7vh;
+  background-color: #7b1fa2b7;
+  /* background-image: linear-gradient(to bottom, #7b1fa2b7 50%, #b07bc7b7 100%); */
   border: 1px solid #8F9092;
   transition: all 0.2s ease;
-  font-family: poppins;
-  font-size: 14px;
-  font-weight: 600;
-  color: #1a1919;
-  text-shadow: 0 1px #fff;
+  font-size: 1.1em;
+  font-weight: 500;
+  color: white;
+  margin: 20px auto;
 }
 
 button:hover {
@@ -70,4 +70,5 @@ margin-bottom: 48px;
 
 .container {
   margin-top: 25px;
+  height: 60vh;
 }

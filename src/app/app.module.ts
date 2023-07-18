@@ -15,6 +15,7 @@ import { ProjeckEffsComponent } from './component/projeck-effs/projeck-effs.comp
 import { OrderAppsComponent } from './component/order-apps/order-apps.component';
 import { OrderWebComponent } from './component/order-web/order-web.component';
 import { OrderWordpressComponent } from './component/order-wordpress/order-wordpress.component';
+import { FooterComponent } from './component/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { OrderWordpressComponent } from './component/order-wordpress/order-wordp
     OrderAppsComponent,
     OrderWebComponent,
     OrderWordpressComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,

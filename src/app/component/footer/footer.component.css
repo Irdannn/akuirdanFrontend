@@ -1,0 +1,42 @@
+.containerFoot {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    background-color: #D9D9D9;
+    color: 2F2F2F;
+    padding: 10px;
+    width: 100vw;
+    height: 30vh;
+}
+
+.footSub {
+    font-family: poppins;
+    color: #9553b1;
+    font-weight: 600;
+    text-transform : uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
+.ready {
+    font-family: poppins;
+    color: #2F2F2F;
+    font-weight: 600;
+    font-size: 32px;
+}
+.buttonfooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 20vw;
+    margin: auto;
+}
+
+.buttonFoot {
+    width: 8vw;
+    height: 6vh;
+    font-weight: 500;
+    font-size: 1rem;
+    border-radius: 15px;
+}
