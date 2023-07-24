@@ -55,8 +55,8 @@
 
 .subhead {
     font-weight: bold;
-    font-size: 2em;
-    margin: 20px 0 0 60px;
+    font-size: 1.8em;
+    margin: 20px 0 10px 60px;
     padding: 0;
 }
 
@@ -72,3 +72,75 @@
     height: 70vh;
     margin: auto;
 }
+
+  @media (max-width: 768px) {
+    .hello {
+        line-height : 80px;
+        font-size: 5.5em;
+        margin: 3vh auto;
+    }
+    .role {
+        font-size: 3em;
+        margin-bottom: 3vh;
+    }
+    .detail {
+        width: 90vw;
+        line-height: 22px;
+        font-size: 1.3em;
+    }
+    .helloContainer {
+        height: 35vh;
+    }
+    .projek {
+        width: 90vw;
+        height: 60vh;
+        margin: 20px auto;
+    }
+    .containerProjek {
+        height: 45vh;
+        width: 85vw;
+    }
+    .subhead {
+        margin: 20px 0 10px 20px;
+    }
+    .menu {
+        margin: 0;
+        width: 100vw;
+    }
+  }
+  
+  /* Phone styles */
+  @media (max-width: 480px) {
+    .hello {
+        line-height : 80px;
+        font-size: 4.5em;
+        margin: 4vh auto;
+    }
+    .role {
+        font-size: 2em;
+    }
+    .detail {
+        width: 90vw;
+        line-height: 22px;
+        font-size: 1.1em;
+    }
+    .helloContainer {
+        height: 65vh;
+    }
+    .projek {
+        width: 95vw;
+        height: 65vh;
+        margin: 20px auto;
+    }
+    .containerProjek {
+        height: 42vh;
+        width: 85vw;
+    }
+    .subhead {
+        margin: 20px 0 10px 20px;
+    }
+    .menu {
+        margin: 0;
+        width: 100vw;
+    }
+  }

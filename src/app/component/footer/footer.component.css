@@ -40,3 +40,34 @@
     font-size: 1rem;
     border-radius: 15px;
 }
+
+/* Tablet styles */
+@media (max-width: 768px) {
+    .buttonFoot {
+        width: 20vw;
+        border-radius: 20px;
+        height: 5vh;
+        margin: 5px;
+    }
+    .containerFoot {
+        height: 22vh;
+    }
+    .buttonfooter {
+        width: 40vw;
+    }
+  }
+  
+  /* Phone styles */
+  @media (max-width: 480px) {
+    .buttonFoot {
+        width: 30vw;
+        border-radius: 20px;
+        margin: 5px;
+    }
+    .containerFoot {
+        height: 32vh;
+    }
+    .buttonfooter {
+        width: 60vw;
+    }
+  }

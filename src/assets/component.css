@@ -72,3 +72,47 @@ margin-bottom: 48px;
   margin-top: 25px;
   height: 60vh;
 }
+
+@media (max-width: 768px) {
+  img, .projekGif {
+    width: 80vw;
+    }
+  .keterangan {
+    width: 80vw;
+    height: 90px
+  }
+  p {
+    font-size: 15px;
+    font-weight: 500;
+  }
+  button {
+    margin-top: 5vh;
+    width: 25vw;
+    height: 5vh;
+  }
+  .container {
+    height: 40vh;
+  }
+}
+
+/* Phone styles */
+@media (max-width: 480px) {
+  img, .projekGif {
+    width: 80vw;
+    }
+  .keterangan {
+    width: 80vw;
+    height: 90px
+  }
+  p {
+    font-size: 15px;
+    font-weight: 500;
+  }
+  button {
+    width: 25vw;
+    height: 5vh;
+  }
+  .container {
+    height: 35vh;
+  }
+}
