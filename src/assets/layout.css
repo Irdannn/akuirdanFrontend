@@ -1,0 +1,291 @@
+.containerHome {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    margin-top: 3vh;
+}
+
+.helloContainer{
+	width: 100vw;
+	height: 90vh;
+    /* margin-bottom: 0; */
+    text-align: center;
+}
+
+.hello {
+    font-weight: bold;
+    font-size: 9em;
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+    height: 30vh;
+}
+
+.role {
+    font-weight: 700;
+    font-size: 4em;
+    margin: 0 auto;
+    border-radius: 50px;
+    background-color: white;
+    width: fit-content;
+    padding: 0;
+    font-family: poppins;
+}
+
+.detail {
+    font-size: 1.8em;
+    background-color: white;
+    font-weight: 600;
+    width: 60vw;
+    margin: 0 auto auto;
+    padding: 10px;
+}
+
+.projek {
+    height: 92vh;
+    width: 80vw;
+    border-radius: 30px;
+    background-color: #D9D9D9;
+    margin: 20px auto;
+}
+
+.subhead {
+    font-weight: bold;
+    font-size: 2em;
+    margin: 10px 0 0 60px;
+    padding: 0;
+}
+
+.menu {
+    margin: 0 0 0 50px;
+    padding: 0;
+    width: 72vw;
+}
+
+.containerProjek {
+    border: solid 2px black;
+    width: 70vw;
+    height: 71vh;
+    margin: auto;
+}
+
+.order {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.orderItem {
+    display: flex;
+    flex-direction: column;
+    width: 18vw;
+    height: 70vh;
+    padding-bottom: 10px;
+    border: solid 2px black;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.judulOrder {
+    font-size: 1.2em;
+    font-weight: 600;
+    font-family: poppins;
+    margin: 10px;
+}
+
+.tawaran {
+    height: 40vh;
+}
+
+.tawaran p {
+    font-size: 0.9em;
+    line-height: 15px;
+}
+
+.harga {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.subscribe {
+    font-size: 0.8em;
+}
+
+.kotakHarga {
+    height: 20vh;
+    line-height: 10px;
+}
+
+.footer {
+    margin-top: 20px;
+    /* width: 100px; */
+}
+
+@media (max-width: 1024px) {
+    .hello {
+        height : 80px;
+        font-size: 5em;
+        margin: 3vh auto;
+    }
+    .role {
+        font-size: 2em;
+        margin-bottom: 3vh;
+    }
+    .detail {
+        width: 90vw;
+        line-height: 22px;
+        font-size: 1.3em;
+    }
+    .helloContainer {
+        height: 35vh;
+    }
+    .projek {
+        width: 90vw;
+        height: 60vh;
+        margin: 20px auto;
+    }
+    .containerProjek {
+        height: 45vh;
+        width: 85vw;
+    }
+    .intip {
+        margin-top: 60px;
+        border-radius: 30px;
+        height: 5vh;
+        width: 20vw;
+    }
+    .subhead {
+        margin: 20px 0 10px 20px;
+    }
+    .menu {
+        margin: 0;
+        width: 100vw;
+    }
+    .orderItem {
+        width: 21vw;
+        /* margin: 10px auto; */
+        height: 45vh;
+    }
+    .harga {
+        font-size: 1.2em;
+        font-weight: 600;
+    }
+}
+
+  @media (max-width: 768px) {
+    .hello {
+        height : 80px;
+        font-size: 5em;
+        margin: 3vh auto;
+    }
+    .role {
+        font-size: 2em;
+        margin-bottom: 3vh;
+    }
+    .detail {
+        width: 90vw;
+        line-height: 22px;
+        font-size: 1.3em;
+    }
+    .helloContainer {
+        height: 45vh;
+    }
+    .projek {
+        width: 90vw;
+        height: 57vh;
+        margin: 20px auto;
+    }
+    .containerProjek {
+        height: 42vh;
+        width: 85vw;
+    }
+    .intip {
+        margin-top: 50px;
+        border-radius: 30px;
+        height: 4vh;
+        width: 20vw;
+    }
+    .subhead {
+        margin: 20px 0 0 20px;
+    }
+    .menu {
+        margin: 0;
+        width: 100vw;
+    }
+    .orderItem {
+        width: 21vw;
+        /* margin: 10px auto; */
+        height: 45vh;
+    }
+    .harga {
+        font-size: 1.2em;
+        font-weight: 600;
+    }
+  }
+  
+  /* Phone styles */
+  @media (max-width: 480px) {
+    .hello {
+        height : 170px;
+        line-height: 80px;
+        font-size: 4em;
+        margin: 2vh auto;
+        padding: 0;
+    }
+    .role {
+        font-size: 2em;
+    }
+    .detail {
+        width: 90vw;
+        line-height: 22px;
+        font-size: 1.1em;
+    }
+    .helloContainer {
+        height: 55vh;
+    }
+    .projek {
+        width: 95vw;
+        height: fit-content;
+        margin: 20px auto;
+    }
+    .containerProjek {
+        height: 43vh;
+        margin-bottom: 20px;
+        width: 85vw;
+    }
+    .subhead {
+        margin: 20px 0 10px 20px;
+        font-size: 1.7em;
+        margin: 10px auto auto 20px;
+    }
+    .menu {
+        margin: 0;
+        width: 100vw;
+    }
+    .order {
+        flex-direction: column;
+    }
+    .orderItem {
+        width: 75vw;
+        margin: 10px auto;
+        height: 50vh;
+    }
+    .kotakHarga {
+        height: 25vh;
+        line-height: 0;
+    }
+    .intip {
+        margin-top: 30px;
+        width: 30vw;
+    }
+    .footer {
+        margin-top: 0;
+        /* width: 100px; */
+    }
+}

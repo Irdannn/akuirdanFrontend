@@ -17,6 +17,7 @@
     border-radius: 30px;
     text-align: center;
     color: #2F2F2F;
+    cursor: pointer;
 }
 
 .menuItem {
@@ -27,6 +28,12 @@
     width: 120px;
     font-size: 1em;
     font-weight: 500;
+}
+
+@media (max-width: 1024px) {
+    .menu {
+        width: 45vw;
+    }
 }
 
 /* Tablet styles */

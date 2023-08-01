@@ -16,6 +16,8 @@ import { OrderAppsComponent } from './component/order-apps/order-apps.component'
 import { OrderWebComponent } from './component/order-web/order-web.component';
 import { OrderWordpressComponent } from './component/order-wordpress/order-wordpress.component';
 import { FooterComponent } from './component/footer/footer.component';
+import { AboutMeComponent } from './component/about-me/about-me.component';
+import { BlogComponent } from './component/blog/blog.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +31,8 @@ import { FooterComponent } from './component/footer/footer.component';
     OrderWebComponent,
     OrderWordpressComponent,
     FooterComponent,
+    AboutMeComponent,
+    BlogComponent,
   ],
   imports: [
     BrowserModule,

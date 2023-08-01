@@ -14,7 +14,7 @@ button {
   font-size: 1.1em;
   font-weight: 500;
   color: white;
-  margin: 20px auto;
+  margin: auto;
 }
 
 button:hover {
@@ -58,7 +58,7 @@ width: 50vw;
 .keterangan {
 background-color: white;
 width: 50vw;
-height: 70px;
+height: 60px;
 margin: -30px auto;
 border-bottom-left-radius: 50px;
 border-bottom-right-radius: 50px;
@@ -85,10 +85,10 @@ margin-bottom: 48px;
     font-size: 15px;
     font-weight: 500;
   }
-  button {
-    margin-top: 5vh;
+  button .kotakHarga {
+    /* margin-top: 5vh; */
     width: 25vw;
-    height: 5vh;
+    height: 10vh;
   }
   .container {
     height: 40vh;

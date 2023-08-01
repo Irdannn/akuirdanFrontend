@@ -4,9 +4,9 @@
     text-align: center;
     justify-content: space-between;
     background-color: #D9D9D9;
-    color: 2F2F2F;
+    color: #2F2F2F;
     padding: 10px;
-    width: 100vw;
+    /* width: 100vw; */
     height: 30vh;
 }
 
@@ -17,6 +17,7 @@
     text-transform : uppercase;
     font-size: 13px;
     letter-spacing: 2px;
+    margin: 10px 0 10px 0;
 }
 
 .ready {
@@ -24,6 +25,7 @@
     color: #2F2F2F;
     font-weight: 600;
     font-size: 32px;
+    margin: 0;
 }
 .buttonfooter {
     display: flex;
@@ -62,12 +64,13 @@
     .buttonFoot {
         width: 30vw;
         border-radius: 20px;
-        margin: 5px;
+        /* margin: 5px; */
     }
     .containerFoot {
-        height: 32vh;
+        height: 50vh;
     }
     .buttonfooter {
         width: 60vw;
+        height: 30vh;
     }
   }
