@@ -147,17 +147,17 @@
     }
     .projek {
         width: 90vw;
-        height: 60vh;
-        margin: 20px auto;
+        height: 50vh;
+        margin: 10px auto;
     }
     .containerProjek {
-        height: 45vh;
+        height: 37vh;
         width: 85vw;
     }
     .intip {
-        margin-top: 60px;
+        margin-top: 30px;
         border-radius: 30px;
-        height: 5vh;
+        height: 4vh;
         width: 20vw;
     }
     .subhead {
@@ -170,7 +170,8 @@
     .orderItem {
         width: 21vw;
         /* margin: 10px auto; */
-        height: 45vh;
+        height: 40vh;
+        margin: 0;
     }
     .harga {
         font-size: 1.2em;
@@ -194,7 +195,7 @@
         font-size: 1.3em;
     }
     .helloContainer {
-        height: 45vh;
+        height: 35vh;
     }
     .projek {
         width: 90vw;
@@ -283,6 +284,7 @@
     .intip {
         margin-top: 30px;
         width: 30vw;
+        height: 5vh;
     }
     .footer {
         margin-top: 0;

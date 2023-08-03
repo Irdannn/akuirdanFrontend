@@ -48,7 +48,6 @@ button:focus {
   width: 120px;
   font-size: 1em;
   font-weight: 500;
-  color: #071730 !important;
 }
 
 img, .projekGif {
@@ -71,6 +70,28 @@ margin-bottom: 48px;
 .container {
   margin-top: 25px;
   height: 60vh;
+}
+
+@media (max-width: 1024px){
+  img, .projekGif {
+    width: 80vw;
+    }
+  .keterangan {
+    width: 80vw;
+    height: 70px
+  }
+  p {
+    font-size: 15px;
+    font-weight: 500;
+  }
+  button .kotakHarga {
+    /* margin-top: 5vh; */
+    width: 25vw;
+    height: 10vh;
+  }
+  .container {
+    height: 35vh;
+  }
 }
 
 @media (max-width: 768px) {

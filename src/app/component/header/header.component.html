@@ -1,7 +1,9 @@
 <header class="containerHead">
-    <div class="menu">
-        <p class="menuItem" routerLink="/work">Work</p>
-        <p class="menuItem" routerLink="/aboutme">About Me</p>
-        <p class="menuItem" routerLink="/blog">Blog</p>
-    </div>
+    <nav class="menu">
+        <ul>
+            <li><a class="menuItem" [ngClass]="{ 'active': isActive('work') }" routerLink="/work">Work</a></li>
+            <li><a class="menuItem" [ngClass]="{ 'active': isActive('aboutme') }" routerLink="/aboutme">About Me</a></li>
+            <li><a class="menuItem" [ngClass]="{ 'active': isActive('blog') }" routerLink="/blog">Blog</a></li>
+        </ul>
+    </nav>
 </header>

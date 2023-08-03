@@ -8,6 +8,9 @@ import { Router } from '@angular/router';
 })
 export class HeaderComponent implements OnInit {
   menuOpen = false;
+  isActive(link: string): boolean {
+    return this.router.url.includes(link);
+  }
   
   public users:any = [];
   public role!:string;
