@@ -48,18 +48,20 @@
 }
 
 .projek {
-    height: 92vh;
+    height: auto;
     width: 80vw;
     border-radius: 30px;
     background-color: #D9D9D9;
     margin: 20px auto;
+    padding: 15px;
 }
 
 .subhead {
-    font-weight: bold;
+    font-weight: 800;
     font-size: 2em;
-    margin: 10px 0 0 60px;
+    margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 .menu {
@@ -87,9 +89,13 @@
     width: 18vw;
     height: 70vh;
     padding-bottom: 10px;
-    border: solid 2px black;
+    /* border: solid 2px black; */
     text-align: center;
-    margin-top: 25px;
+    margin: 10px;
+    background-color: #f5efef;
+    /* background-color: #d9d9d9; */
+  box-shadow: 0px 0px 10px rgba(245, 239, 239, 0.5);
+    border-radius: 10px;
 }
 
 .judulOrder {
