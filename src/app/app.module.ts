@@ -18,6 +18,7 @@ import { OrderWordpressComponent } from './component/order-wordpress/order-wordp
 import { FooterComponent } from './component/footer/footer.component';
 import { AboutMeComponent } from './component/about-me/about-me.component';
 import { BlogComponent } from './component/blog/blog.component';
+import { MikrotikComponent } from './component/mikrotik/mikrotik.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { BlogComponent } from './component/blog/blog.component';
     FooterComponent,
     AboutMeComponent,
     BlogComponent,
+    MikrotikComponent,
   ],
   imports: [
     BrowserModule,
