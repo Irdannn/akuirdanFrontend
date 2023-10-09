@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FaIconLibrary } from '@fortawesome/angular-fontawesome/icon-library';
 
 @Component({
   selector: 'app-about-me',

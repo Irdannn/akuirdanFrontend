@@ -62,6 +62,7 @@
     margin: 0;
     padding: 0;
     text-align: center;
+    background-color: transparent;
 }
 
 .menu {
@@ -93,6 +94,7 @@
     text-align: center;
     margin: 10px;
     background-color: #f5efef;
+    position: relative;
     /* background-color: #d9d9d9; */
   box-shadow: 0px 0px 10px rgba(245, 239, 239, 0.5);
     border-radius: 10px;
@@ -103,29 +105,39 @@
     font-weight: 600;
     font-family: poppins;
     margin: 10px;
+    background-color: transparent;
 }
 
 .tawaran {
-    height: 40vh;
+    height: auto;
+    margin: 0 20px;
+    background-color: transparent;
 }
 
 .tawaran p {
     font-size: 0.9em;
-    line-height: 15px;
+    line-height: 20px;
+    background-color: transparent;
 }
 
 .harga {
     font-size: 1.5em;
     font-weight: 600;
+    background-color: transparent;
 }
 
 .subscribe {
     font-size: 0.8em;
+    background-color: transparent;
 }
 
 .kotakHarga {
-    height: 20vh;
+    height: auto;
     line-height: 10px;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
 }
 
 .footer {
@@ -153,11 +165,9 @@
     }
     .projek {
         width: 90vw;
-        height: 50vh;
-        margin: 10px auto;
+        margin: 10px;
     }
     .containerProjek {
-        height: 37vh;
         width: 85vw;
     }
     .intip {
@@ -175,13 +185,15 @@
     }
     .orderItem {
         width: 21vw;
-        /* margin: 10px auto; */
+        margin: 10px;
         height: 40vh;
-        margin: 0;
     }
     .harga {
         font-size: 1.2em;
         font-weight: 600;
+    }
+    .pesan{
+        height: auto;
     }
 }
 
@@ -205,11 +217,11 @@
     }
     .projek {
         width: 90vw;
-        height: 57vh;
+        height: auto;
         margin: 20px auto;
     }
     .containerProjek {
-        height: 42vh;
+        height: auto;
         width: 85vw;
     }
     .intip {
@@ -226,13 +238,16 @@
         width: 100vw;
     }
     .orderItem {
-        width: 21vw;
-        /* margin: 10px auto; */
+        width: 30vw;
+        margin: 5px;
         height: 45vh;
     }
     .harga {
         font-size: 1.2em;
         font-weight: 600;
+    }
+    .pesan{
+        height: auto;
     }
   }
   
@@ -281,16 +296,12 @@
     .orderItem {
         width: 75vw;
         margin: 10px auto;
-        height: 50vh;
-    }
-    .kotakHarga {
-        height: 25vh;
-        line-height: 0;
+        height: 60vh;
     }
     .intip {
         margin-top: 30px;
-        width: 30vw;
-        height: 5vh;
+        width: auto;
+        height: auto;
     }
     .footer {
         margin-top: 0;

@@ -33,6 +33,10 @@ button:focus {
 }
 /* Menu */
 
+p, h3 {
+  background-color: white;
+}
+
 .menu {
   display: inline-flex;
   background-color: #D9D9D9;
@@ -72,7 +76,7 @@ margin-bottom: 48px;
 
 .container {
   margin-top: 25px;
-  height: 60vh;
+  height: auto;
 }
 
 .sub {
@@ -103,7 +107,7 @@ margin-bottom: 48px;
     height: 10vh;
   }
   .container {
-    height: 35vh;
+    height: auto;
   }
 }
 
