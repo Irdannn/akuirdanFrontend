@@ -37,6 +37,11 @@ p, h3 {
   background-color: white;
 }
 
+button a {
+  color: white;
+  text-decoration: none;
+}
+
 .menu {
   display: inline-flex;
   background-color: #D9D9D9;
@@ -58,12 +63,12 @@ p, h3 {
 }
 
 img, .projekGif {
-width: 50vw;
+width: 60vw;
 }
 
 .keterangan {
 background-color: white;
-width: 50vw;
+width: 60vw;
 height: 60px;
 margin: -30px auto;
 border-bottom-left-radius: 50px;
