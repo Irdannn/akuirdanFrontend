@@ -35,6 +35,6 @@ p, h1, h3 {
 @import url('assets/background.css');
 @import url('assets/layout.css');
 
-html, body { width: 100%; height: 100%; }
+html, body { width: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 

@@ -237,10 +237,12 @@
         margin: 0;
         width: 85vw;
         font-size: 1.1em;
+        text-align: center;
     }
     .batman {
-        font-size: 2.5em;
+        font-size: 2em;
         margin: 20px 0;
+        text-align: center;
     }
     .skills{
         width: 90vw;

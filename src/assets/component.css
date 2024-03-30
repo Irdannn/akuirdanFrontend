@@ -60,6 +60,7 @@ button a {
   width: 120px;
   font-size: 1em;
   font-weight: 500;
+  height: auto;
 }
 
 img, .projekGif {
@@ -81,7 +82,7 @@ margin-bottom: 48px;
 
 .container {
   margin-top: 25px;
-  height: auto;
+  height: 470px;
 }
 
 .sub {
@@ -134,7 +135,7 @@ margin-bottom: 48px;
     height: 10vh;
   }
   .container {
-    height: 40vh;
+    height: 400px;
   }
 }
 
@@ -156,6 +157,6 @@ margin-bottom: 48px;
     height: 5vh;
   }
   .container {
-    height: 35vh;
+    height: 300px;
   }
 }

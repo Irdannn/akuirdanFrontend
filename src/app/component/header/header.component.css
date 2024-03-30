@@ -71,13 +71,13 @@ nav a.active {
 /* Tablet styles */
 @media (max-width: 768px) {
     .menu {
-        width: 40vw;
+        width: 50vw;
     }
   }
   
   /* Phone styles */
   @media (max-width: 480px) {
     .menu {
-        width: 80vw;
+        width: 90vw;
     }
   }
